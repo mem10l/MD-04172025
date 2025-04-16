@@ -29,4 +29,17 @@ echo $user01->getuserinfo();
 echo $user02->getuserinfo();
 echo $user03->getuserinfo();
 
+// Global scope
+$globalUser = new User("Global", "global@test.com", "pass123");
+
+function createUser() {
+    // Function scope
+    $localUser = new User("Local", "local@test.com", "pass456");
+    return $localUser;
+}
+
+// Conditional scope
+if (true) {
+    $conditionalUser = new User("Conditional", "cond@test.com", "pass789");
+}
 ?>
