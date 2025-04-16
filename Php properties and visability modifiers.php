@@ -42,4 +42,6 @@ function createUser() {
 if (true) {
     $conditionalUser = new User("Conditional", "cond@test.com", "pass789");
 }
+
+
 ?>
