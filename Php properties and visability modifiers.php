@@ -19,13 +19,14 @@ class User {
     }
 }
 
-// Create User objects (instances) using 'new'
+// Create User objects using 'new'
 $user01 = new User("David", "David@gmail.com", "whatt |");
 $user02 = new User("Samantha", "Samantha@gmail.com", "ereare |"); 
-$user03 = new User("Emma", "Emma@gmail.com", "readtfa |"); 
+$user03 = new User("Emma", "Emma@gmail.com", "rradtfa |"); 
 
 // Display user info
 echo $user01->getuserinfo();
 echo $user02->getuserinfo();
 echo $user03->getuserinfo();
+
 ?>
