@@ -1,17 +1,16 @@
 <?php
-// Define a class (blueprint)
+// Define a class 
 class Animal {
-    // Property
     public $name;
 
-    // Method
+    // Function
     public function speak() {
-        return "nigga!";
+        return "gun shot!";
     }
 }
 
-// Create an object (instance)
+// Create an object
 $dog = new Animal();
-$dog->name = "Buddy";
-echo $dog->speak();  // Output: "Sound!"
+$dog->name = "Lucky";
+echo $dog->speak();  // Output: "gun shot!"
 ?>
